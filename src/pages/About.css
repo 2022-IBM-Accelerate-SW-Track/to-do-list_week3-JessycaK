@@ -1,6 +1,6 @@
 .split {
   height: 100%;
-  width: 50%;
+  width: 60%;
   position: fixed;
   z-index: -1;
   top: 0;
@@ -10,11 +10,13 @@
 
 .left {
   left: 0;
-  background-color: #0f62fe;
+  
+  
 }
 
 .right {
   right: 0;
+  /* background-color: #0f62fe; */
 }
 
 .centered {
@@ -26,17 +28,17 @@
 }
 
 .name_title {
-  font-size: 48px;
+  font-size: 35px;
   color: black;
   text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .brief_description {
-  text-align: left;
+  text-align: justify;
 }
 
 .profile_image {
-  width: 500px;
+  width: 400px;
   height: auto;
 }
